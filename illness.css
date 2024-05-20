@@ -1,0 +1,78 @@
+* {
+    color: #dfdfdf;
+}
+.illness-container {
+    margin-top: 100px;
+}
+.illness1 {
+    background: url(Image1/minor.webp) center;
+    background-size: 100% 100%;
+    height: 750px;
+    position: relative;
+    transition: 3s ease-in-out;
+}
+.illness2 {
+    background: url(Image1/major.jpg) center;
+    background-size: 100% 100%;
+    height: 750px;
+    position: relative;
+    transition: 3s ease-in-out;
+}
+.illness1 > .container .overlay, .illness2 > .container .overlay {
+    background-color: black;
+    position: absolute;
+    top: 0;left: 0;right: 0;bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+/*To zoom in picture when hover on pc/laptop*/
+@media screen and (min-width:768px) {    
+    .illness:hover {
+        background-position: center;
+        background-size: 150% 150%;
+    }
+}
+.illness > .overlay {
+    position: absolute;
+    top: 0;left: 0;right: 0;bottom: 0;
+}
+.ill-info {
+    align-content: center;
+    text-align: center;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.ill-info h1 {
+    color: #dfdfdf;
+    font-size: 50px;
+}
+.ill-info h3 {
+    color: #dfdfdf;
+    margin: 20px 0;
+}
+
+.card-container .container {
+    background-color: #50577a;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 1200px;
+}
+.card-container {
+    margin-top: 100px;
+}
+.card-container .container .i-image {
+    width: 100%;
+    height: 350px;
+}
+.card-container .container ul li {
+    text-align: left;
+}
+.card-container .container h3 {
+    text-decoration: underline;
+}

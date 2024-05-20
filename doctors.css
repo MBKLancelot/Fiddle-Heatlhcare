@@ -1,0 +1,66 @@
+* {
+    color: #ffffff;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: #72aac4;
+}
+
+.doctors {
+    background-color: #50577a;
+    border: 3px solid #ab3238;
+    width: 100%;
+    position: relative;
+    border-radius: 10px;
+    padding: 5px;
+    height: 800px;
+}
+
+.card-container {
+    margin-top: 70px;
+    position: relative;
+    z-index: -1;
+}
+
+.image {
+    width: 100%;
+    border-radius: 10px;
+    height: 250px;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+}
+
+.intro {
+    margin-top: 100px;
+    text-align: center;
+    background-color: #50577a;
+    border: 2px solid #ab3238;
+    border-radius: 30px;
+}
+
+.intro img {
+    width: 100%;
+    height: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.intro .container h1 {
+    font-size: 40px;
+    margin: 0;
+    color: #dfdfdf;
+}
+
+.intro .container p {
+    font-size: 20px;
+    color: #dfdfdf;
+}

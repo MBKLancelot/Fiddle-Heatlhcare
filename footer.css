@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    background-color: #72aac4;
+}
+footer {
+    background-color: #4a4d59;
+    margin-top: 50px;
+    width: 100%;
+}
+footer .logo {
+    line-height: 60px;
+    text-decoration: none;
+    display: block;
+}
+footer .logo span {
+    color: #dfdfdf;
+    font-size: 30px;
+    font-weight: bold;
+}
+#email {
+    height: 25px;
+    width: 60%;
+    border: none;
+}
+#submit {
+    height: 40px;
+    width: 30%;
+    color: #dfdfdf;
+    background-color: #50577a;
+    border: 1px solid red;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+footer ul {
+    padding: 0;
+    list-style-type: none;
+}
+footer ul li a {
+    text-decoration: none;
+    font-size: 19px;
+    color: #dfdfdf;
+    margin: 0 7px;
+}
+.contact-container {
+    align-self: center;
+}
+.contact-container .bi {
+    color: #dfdfdf;
+    font-size: 35px;
+    margin: 15px;
+}
+.copyright {
+    text-align: center;
+}
+.copyright h4 {
+    color: #dfdfdf;
+}
+.copyright a {
+    color: #dfdfdf;
+    text-decoration: none;
+}
+/*To make the second nav item in footer go down*/
+@media screen and (max-width:767px) {
+    footer ul li {
+        display: block;
+    }
+}
+/*To make the alignment to centre in footer for small device*/
+@media screen and (max-width:599px) {
+    .footer-container .email-container, .footer-container .contact-container {
+        text-align: center;
+    }
+    footer .contact li {
+        float: none;
+        clear: none;
+    }
+}

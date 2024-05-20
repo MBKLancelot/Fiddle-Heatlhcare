@@ -1,0 +1,82 @@
+.wel-container {
+    margin-top: 100px;
+}
+.welcome {
+    background: url(Image1/healthcare.jpg) center;
+    background-size: 100% 100%;
+    height: 750px;
+    position: relative;
+    transition: 3s ease-in-out;
+}
+.welcome > .container .overlay {
+    background-color: black;
+    position: absolute;
+    top: 0;left: 0;right: 0;bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+/*To zoom in picture when hover on pc/laptop*/
+@media screen and (min-width:768px) {    
+    .welcome:hover {
+        background-position: center;
+        background-size: 150% 150%;
+    }
+}
+.welcome > .overlay {
+    position: absolute;
+    top: 0;left: 0;right: 0;bottom: 0;
+}
+.wel-info {
+    align-content: center;
+    text-align: center;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.wel-info h1 {
+    color: #dfdfdf;
+    font-size: 50px;
+}
+.wel-info h3 {
+    color: #dfdfdf;
+    margin: 20px 0;
+}
+.wel-info button {
+    border: 1px solid red;
+    border-radius: 13px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    background-color: #50577a;
+    color: #dfdfdf;
+}
+.wel-info button a {
+    text-decoration: none;
+}
+/*Information start*/
+.container1, .container2 {
+    margin: 50px 0;
+    text-align: center;
+}
+.container1 img, .container2 img {
+    width: 100%;
+    height: 470px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container h1 {
+    font-size: 40px;
+    color: #dfdfdf;
+}
+.container1 .container p, .container2 .container p {
+    font-size: 20px;
+    margin: 40px;
+    color: #dfdfdf;
+}
+.container1 .image, .container2 .image, .container1 .information, .container2 .information {
+    background-color: #50577a;
+    height: 500px;
+}
+/*Information end*/
